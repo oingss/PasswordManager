@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Fallback icon for older devices -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+    <!-- Background -->
     <path
         android:fillColor="#6200EE"
         android:pathData="M0,0h108v108h-108z" />
+    <!-- Lock body -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M30,30 h48 a12,12 0 0 1 12,12 v24 a12,12 0 0 1 -12,12 h-48 a12,12 0 0 1 -12,-12 v-24 a12,12 0 0 1 12,-12 z" />
+        android:pathData="M34,48 h40 a8,8 0 0 1 8,8 v28 a8,8 0 0 1 -8,8 h-40 a8,8 0 0 1 -8,-8 v-28 a8,8 0 0 1 8,-8 z" />
+    <!-- Lock shackle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:pathData="M40,48 v-10 a14,14 0 0 1 28,0 v10" />
+    <!-- Keyhole -->
     <path
         android:fillColor="#6200EE"
-        android:pathData="M42,48 h24 v6 h-24 z M42,60 h18 v6 h-18 z" />
+        android:pathData="M54,64 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M51,68 h6 v10 h-6 z" />
 </vector>
